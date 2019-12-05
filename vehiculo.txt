@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace alquilerdevehiculos
+{
+    public class Vehiculo
+
+    {
+        public Vehiculo(String matricula, String modelo, String color, String marca, float precio_alquiler_dias)
+
+        {
+            this.Matricula = matricula;
+            this.Color = color;
+            this.Marca = marca;
+            this.Precio_Alquiler_Dias = precio_alquiler_dias;
+
+
+        }
+
+        public String Matricula { get; private set; }
+
+        public String Modelo { get; private set; }
+
+        public String Color { get; private set; }
+
+        public String Marca { get; private set; }
+
+        public float Precio_Alquiler_Dias { get; private set; }
+
+    }
+}

@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace alquilerdevehiculos
+{
+    public class Agencia:Lista_Reserva
+    { 
+        public Agencia( int codigo_agencia, String nombre_agencia)
+        {
+            this.Nombre_Agencia = nombre_agencia;
+            this.Codigo_agencia = codigo_agencia;
+        }
+
+    
+        public int Codigo_agencia { get; private set; }
+
+        public String Nombre_Agencia { get; private set; }
+    }
+}

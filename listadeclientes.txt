@@ -1,0 +1,12 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace alquilerdevehiculos
+{
+    public class Lista_Cliente
+    {
+
+        public List<Reserva>Reservas { get; set; }
+    }
+}
